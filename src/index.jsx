@@ -13,6 +13,7 @@ import PostsShow from './containers/posts_show';
 import PostsNew from './containers/posts_new';
 import { reducer as formReducer } from 'redux-form';
 
+
 const reducers = combineReducers({
   posts: postsReducer,
   form: formReducer
