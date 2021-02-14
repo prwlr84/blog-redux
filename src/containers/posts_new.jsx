@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { connect } from 'react-redux';
 import { reduxForm, Field } from 'redux-form';
 import { createPost } from '../actions';
+import { connect } from 'react-redux';
 
 class PostsNew extends Component {
     onSubmit = (values) => {
